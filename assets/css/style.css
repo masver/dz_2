@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parents {
+    background-image: url('../imgs/background_container.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.menu {
+    display:flex;
+    list-style: none;
+    width: 60%;
+    z-index: 2;
+}
+
+.logo {
+    top: 28px;
+    margin-right: 128px;
+    margin-top: 49px;
+    z-index: 3;
+}
+
+.menu li {
+    margin: 0 20px;
+    margin-top: 55px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+    color: rgba(21, 1, 1, 0.6);
+
+}
+
+.menu a:active {
+    color:#1B75BB;
+}
+
+.botton_gelasio {
+    margin-top: 38px;
+    z-index: 4;
+    width: 138px;
+    height: 56px;
+    border-radius: 5px;
+    border: 0;
+    background: #1B75BB;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+}
+
+.botton_roboto {
+    margin-top: 38px;
+    z-index: 4;
+    width: 138px;
+    height: 56px;
+    border-radius: 5px;
+    border: 0;
+    background: #1B75BB;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+}
+
+.text_container {
+    position: relative;
+    margin-top: 217px;
+    margin-left: 20px;
+    max-width: 456px;
+    margin-bottom: 70px;
+}
+
+.serenity_first {
+    margin-top: 15px;
+}
+
+.serenity_two {
+    margin-top: 25px;
+    max-width: 350px;
+}
+
+.roboto_five {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgba(27, 117, 187, 0.8);
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.gelasio {
+    font-family: 'Gelasio', serif;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 1.2;
+}
+
+
+.roboto_four {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(8, 31, 50, 0.6);
+    line-height: 1.5;
+}
+
+.roboto_four_16px {    
+    font-family: 'Roboto', sans-serif;
+    color:rgba(8, 31, 50, 0.8);
+    height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.roboto_five_16px {    
+    margin: 0 0 10px 0;
+    line-height: 160%;
+    color: #081F32;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.find_line_first {
+    width: 1px;
+    height: 34px;
+    opacity: 0.4;
+    border: 1px solid #9DACB8;
+    background: #9DACB8;
+    margin: 38px 30px 0 0 ;
+}
+
+.find_room {
+    display: flex;
+    position: relative;
+    top: 48px;
+    right: 60px;
+    width: 687px;
+    height: 110px;
+    background: url('../imgs/window_find_room.png')0 0 /cover no-repeat ;
+    border-radius: 10px;
+}
+
+.find_room_one {
+    width: 88px;
+    height: 62px;
+    margin: 34px 30px 0 49px;
+}
+
+.find_room_second {
+    margin: 34px 30px 0 0;
+    width: 88px;
+    height: 62px;
+}
+
+.find_room_third{
+    margin: 34px 60px 0 0;
+}
+
+.second_block {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.second_block_square {
+    position: absolute;
+    top: 190px;
+    z-index: 1;
+
+}
+
+.dzinb_dzinb {
+    position: absolute;
+    left: 40px;
+    width: 40%;
+    z-index: 2;
+}
+
+.card_hundredsimg {
+    position: relative;
+    z-index: 0;
+    top: 60px;
+    left: 138px;
+    width: 80%;
+}
+
+.holidaystext {
+    margin: 50px 0px 50px 100px;
+    z-index: 4;
+    max-width: 430px;
+    line-height: 30px;
+}
+
+.unforgettable {
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44.8px;
+    margin-top: 15px;
+    margin-bottom: 31px;
+}
+
+.imgblocksecond {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third_block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.third_text{
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44.8px;
+    margin-top: 15px;
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.third_comment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(8, 31, 50, 0.6);
+    line-height: 1.5;
+    text-align: center;
+}
