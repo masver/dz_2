@@ -17,33 +17,33 @@
     margin: 0 auto;
 }
 
-.header {
+.parents__header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
 
-.menu {
+.parents__menu {
     display:flex;
     list-style: none;
     width: 60%;
     z-index: 2;
 }
 
-.logo {
+.parents__logo {
     top: 28px;
     margin-right: 128px;
     margin-top: 49px;
     z-index: 3;
 }
 
-.menu li {
+.parents__menu li {
     margin: 0 20px;
     margin-top: 55px;
 }
 
-.menu a {
+.parents__menu a {
     text-decoration: none;
     font-family: 'Gelasio', serif;
     font-weight: 500;
@@ -51,7 +51,7 @@
 
 }
 
-.menu a:active {
+.parents__menu a:active {
     color:#1B75BB;
 }
 
@@ -83,7 +83,7 @@
     font-weight: 500;
 }
 
-.text_container {
+.parents__text-container {
     position: relative;
     margin-top: 217px;
     margin-left: 20px;
@@ -91,16 +91,16 @@
     margin-bottom: 70px;
 }
 
-.serenity_first {
+.parents__serenity-first {
     margin-top: 15px;
 }
 
-.serenity_two {
+.parents__serenity-two {
     margin-top: 25px;
     max-width: 350px;
 }
 
-.roboto_five {
+.parents__roboto-five {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: rgba(27, 117, 187, 0.8);
@@ -108,7 +108,7 @@
     letter-spacing: 0.1em;
 }
 
-.gelasio {
+.parents__gelasio {
     font-family: 'Gelasio', serif;
     font-weight: 600;
     font-size: 57px;
@@ -116,7 +116,7 @@
 }
 
 
-.roboto_four {
+.parents__roboto-four {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
