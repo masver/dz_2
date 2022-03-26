@@ -321,15 +321,16 @@
 }
 
 .four_block-item {
-    max-width: 440px;
+    max-width: 460px;
     padding: 11.5px;
+    margin-top: 47px;
 }
 
 .four_block__title {
     font-family: 'Gelasio', serif;
     font-weight: 500;
     font-size: 32px;
-    max-width: 440px;
+    max-width: 450px;
 }
 
 .four_block__description {
@@ -337,6 +338,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(8, 31, 50, 0.6);
+    line-height: 28.8px;
+    margin-top: 25px;
 }
 
 .four_block__background {
