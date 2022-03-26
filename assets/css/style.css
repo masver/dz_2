@@ -431,3 +431,9 @@
     font-weight: 500;
     font-size: 12px;
 }
+
+.five_block__text {
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
