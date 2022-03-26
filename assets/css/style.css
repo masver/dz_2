@@ -369,8 +369,17 @@
     
 }
 
+/*.four_block__text {
+    display: flex;
+    flex-direction: column;
+
+}*/
+
 .four_block__room {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
 }
 
 .four_botton_gelasio {
@@ -384,10 +393,38 @@
     font-family: 'Gelasio', sans-serif;
     font-weight: 500;
     font-size: 13px;
+    margin-left: 28px;
+    margin-top: 10px;
 }
 
 .Lux {
     font-family: 'Gelasio', sans-serif;
     font-weight: 500;
     font-size: 18px;
+    margin-top: 23px;
+    margin-left: 28px;
+}
+
+.stande_room {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 28px;
+}
+
+.dollars {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 28px;
+}
+
+.dollars::after {
+    content: " night";
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
 }
