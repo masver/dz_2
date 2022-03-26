@@ -368,3 +368,26 @@
     position: absolute;
     
 }
+
+.four_block__room {
+    display: flex;
+}
+
+.four_botton_gelasio {
+    width: 105px;
+    height: 41px;
+    border-radius: 5px;
+    border: 0;
+    background: #1B75BB;
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    font-family: 'Gelasio', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.Lux {
+    font-family: 'Gelasio', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
