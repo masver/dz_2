@@ -507,8 +507,13 @@
     line-height: 140%;
 }
 
+.six_block__enter-email{
+    padding: 20px;
+}
+
 .six_block__inputtext {
-    
+    padding: 16px 26px;
+    border-radius: 5px;
 }
 
 .six_block__subscribe {
