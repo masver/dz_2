@@ -478,3 +478,32 @@
     color: rgb(8, 31, 50, 0.6);
     line-height: 1.6;
 }
+
+.six_block {
+    padding: 50px 0px;
+}
+
+.six_block__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six_block__stay {
+
+}
+
+.six_block__text-join {
+    
+}
+
+.six_block__subscribe {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    border: 0;
+    background: #1B75BB;
+    color: rgba(255, 255, 255, 1);
+}
