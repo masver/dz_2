@@ -508,13 +508,19 @@
 }
 
 .six_block__enter-email{
-    padding: 20px;
+    padding:20px 0px;
 }
 
 .six_block__inputtext {
-    padding: 16px 26px;
+    padding: 10px 200px 10px 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #081F32;
     border-radius: 5px;
-}
+  }
 
 .six_block__subscribe {
     font-family: 'Poppins';
