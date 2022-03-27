@@ -37,6 +37,24 @@
     }
 }
 
+@media (max-width:1200px) {
+    .one_block {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .one_block {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .one_block {
+        max-width: none;
+    }
+}
+
 .one-block__header {
     display: flex;
     justify-content: space-around;
@@ -75,7 +93,7 @@
     color:#1B75BB;
 }
 
-.botton_gelasio {
+.one-block__botton_gelasio {
     margin-top: 38px;
     z-index: 4;
     width: 138px;
@@ -89,7 +107,7 @@
     font-weight: 500;
 }
 
-.botton_roboto {
+.one-block__botton_roboto {
     padding: 20px 20px;
     border-radius: 5px;
     border: 0;
@@ -198,6 +216,24 @@
     align-items: baseline;
 }
 
+@media (max-width:1200px) {
+    .second_block {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .second_block {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .second_block {
+        max-width: none;
+    }
+}
+
 .second_block_square {
     position: absolute;
     top: 190px;
@@ -272,6 +308,24 @@
     
 }
 
+@media (max-width:1200px) {
+    .third_block {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .third_block {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .third_block {
+        max-width: none;
+    }
+}
+
 .third_block__row{
     display: flex;
     flex-wrap: wrap;
@@ -316,6 +370,24 @@
 
 .four_block {
     margin-top: 140px;
+}
+
+@media (max-width:1200px) {
+    .four_block {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .four_block {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .four_block {
+        max-width: none;
+    }
 }
 
 .four_block__row {
@@ -394,7 +466,7 @@
     
 }
 
-.four_botton_gelasio {
+.four_block__botton_gelasio {
     width: 105px;
     height: 41px;
     border-radius: 5px;
@@ -439,6 +511,24 @@
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 12px;
+}
+
+@media (max-width:1200px) {
+    .five_block__row {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .five_block__row {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .five_block__row {
+        max-width: none;
+    }
 }
 
 .five_block__text {
