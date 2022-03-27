@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.parents {
+.one-block {
     background-image: url('../imgs/background_container.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -17,33 +17,33 @@
     margin: 0 auto;
 }
 
-.parents__header {
+.one-block__header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
 
-.parents__menu {
+.one-block__menu {
     display:flex;
     list-style: none;
     width: 60%;
     z-index: 2;
 }
 
-.parents__logo {
+.one-block__logo {
     top: 28px;
     margin-right: 128px;
     margin-top: 49px;
     z-index: 3;
 }
 
-.parents__menu li {
+.one-block__menu li {
     margin: 0 20px;
     margin-top: 55px;
 }
 
-.parents__menu a {
+.one-block__menu a {
     text-decoration: none;
     font-family: 'Gelasio', serif;
     font-weight: 500;
@@ -51,7 +51,7 @@
 
 }
 
-.parents__menu a:active {
+.one-block__menu a:active {
     color:#1B75BB;
 }
 
@@ -83,7 +83,7 @@
     font-weight: 500;
 }
 
-.parents__text-container {
+.one-block__text-container {
     position: relative;
     margin-top: 217px;
     margin-left: 20px;
@@ -91,16 +91,16 @@
     margin-bottom: 70px;
 }
 
-.parents__serenity-first {
+.one-block__serenity-first {
     margin-top: 15px;
 }
 
-.parents__serenity-two {
+.one-block__serenity-two {
     margin-top: 25px;
     max-width: 350px;
 }
 
-.parents__roboto-five {
+.one-block__roboto-five {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: rgba(27, 117, 187, 0.8);
@@ -108,7 +108,7 @@
     letter-spacing: 0.1em;
 }
 
-.parents__gelasio {
+.one-block__gelasio {
     font-family: 'Gelasio', serif;
     font-weight: 600;
     font-size: 57px;
@@ -116,7 +116,7 @@
 }
 
 
-.parents__roboto-four {
+.one-block__roboto-four {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
