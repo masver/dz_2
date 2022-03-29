@@ -654,6 +654,19 @@
         margin-left: 18px;
     }
 
+    .four_block__botton_gelasio {
+        width: 59px;
+        height: 28px;
+        font-size: 11px;
+        margin-left: 18px;
+        margin-top: 0px;
+}
+
+.four_block__name-stande {
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
 
 }
 
@@ -727,7 +740,15 @@
 }
 
 @media (max-width:766.75px) {
-    
+    .six_block__text-join {
+        font-size: 24px;
+        line-height: 139%;
+    }
+
+    .six_block__stay {
+        font-size: 19px;
+        line-height: 161%;
+     }
 }
 
 .six_block {
